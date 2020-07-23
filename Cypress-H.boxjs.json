@@ -15,9 +15,9 @@
             "icons": [ "https://raw.githubusercontent.com/Orz-3/mini/master/tieba.png","https://raw.githubusercontent.com/Orz-3/task/master/tieba.png"]
          },
          {
-            "id": "wechat_finace_guess",
+            "id": "wechat_finance_guess",
             "name": "腾讯微证券",
-            "keys": ["wechat_finace_cookieKey"],
+            "keys": ["wechat_finance_cookieKey"],
             "author": "@baranwang",
             "repo": "https://github.com/baranwang",
             "icons": [ "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png","https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png"]
