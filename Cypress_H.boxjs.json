@@ -9,7 +9,8 @@
          {
             "id": "tieba",
             "name": "百度贴吧",
-            "keys": ["CookieTB"],   /*注：使用的是@NobyDa的cookie获取脚本*/
+            "keys": ["CookieTB"],  
+            //注：使用的是@NobyDa的cookie获取脚本
             "settings": 
             [
                  { "id": "CFG_tieba_isOrderBars", "name": "按连签排序", "val": false, "type": "boolean", "desc": "默认按经验排序" },
