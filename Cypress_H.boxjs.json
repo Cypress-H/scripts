@@ -6,14 +6,6 @@
   "repo": "https://github.com/Cypress-H/scripts",
   "apps":
      [
-       //{
-          //"id": "tieba",
-          //"name": "贴吧签到",
-          //"keys": ["CookieTB"],
-          //"author": "@Nobyda",
-          //"repo": "https://github.com/NobyDa/Script",
-          //"icons": [ "https://raw.githubusercontent.com/Orz-3/mini/master/tieba.png","https://raw.githubusercontent.com/Orz-3/task/master/tieba.png"]
-       //}, 
          {
             "id": "tieba",
             "name": "百度贴吧",
@@ -30,14 +22,6 @@
             "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js",
             "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/tieba.png", "https://raw.githubusercontent.com/Orz-3/task/master/tieba.png"]
          },
-      // {
-      //    "id": "wechat_finance_guess",
-      //    "name": "腾讯微证券",
-      //    "keys": ["wechat_finance_cookieKey"],
-      //    "author": "@baranwang",
-      //    "repo": "https://github.com/baranwang",
-      //    "icons": [ "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png","https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png"]
-      // },
          {
             "id": "52pojie",
             "name": "吾爱破解",
