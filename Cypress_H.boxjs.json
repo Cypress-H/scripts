@@ -37,15 +37,15 @@
       //    "author": "@baranwang",
       //    "repo": "https://github.com/baranwang",
       //    "icons": [ "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png","https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png"]
-      // }
+      // },
          {
-            "id": '52pojie',
-            "name": '吾爱破解',
-            "keys": ['CookieWA'],
-            "author": '@NobyDa',
-            "repo": 'https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js',
-            "icons": ['https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png', 'https://raw.githubusercontent.com/Cypress-H/images/master/52pj.png'],
-            "script": 'https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js'
+            "id": "52pojie",
+            "name": "吾爱破解",
+            "keys": ["CookieWA"],
+            "author": "@NobyDa",
+            "repo": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png", "https://raw.githubusercontent.com/Cypress-H/images/master/52pj.png"],
+            "script": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js"
          },
          {
             "id": "chavyleung.meituan",
