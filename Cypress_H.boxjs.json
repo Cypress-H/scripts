@@ -1,0 +1,195 @@
+{
+  "id": "Cypress_H.app.sub",
+  "name": "Cypress.H自用合集",
+  "author": "@Cypress_H",
+  "icon": "https://raw.githubusercontent.com/Cypress-H/images/master/tx.png",
+  "repo": "https://github.com/Cypress-H/scripts",
+  "apps":
+     [
+       //{
+          //"id": "tieba",
+          //"name": "贴吧签到",
+          //"keys": ["CookieTB"],
+          //"author": "@Nobyda",
+          //"repo": "https://github.com/NobyDa/Script",
+          //"icons": [ "https://raw.githubusercontent.com/Orz-3/mini/master/tieba.png","https://raw.githubusercontent.com/Orz-3/task/master/tieba.png"]
+       //}, 
+         {
+            "id": "tieba",
+            "name": "百度贴吧",
+            "keys": ["CookieTB"],   //注：使用的是@NobyDa的cookie获取脚本
+            "settings": 
+            [
+                 { "id": "CFG_tieba_isOrderBars", "name": "按连签排序", "val": false, "type": "boolean", "desc": "默认按经验排序" },
+                 { "id": "CFG_tieba_maxShowBars", "name": "每页显示数", "val": 15, "type": "number", "desc": "每页最显示多少个吧信息" },
+                 { "id": "CFG_tieba_maxSignBars", "name": "每次并发", "val": 5, "type": "number", "desc": "每次并发签到多少个吧" },
+                 { "id": "CFG_tieba_signWaitTime", "name": "并发间隔 (毫秒)", "val": 2000, "type": "number", "desc": "每次并发间隔时间" }
+            ],
+            "author": "@chavyleung，@Nobyda",
+            "repo": "https://github.com/chavyleung/scripts/tree/master/tieba",
+            "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/tieba.png", "https://raw.githubusercontent.com/Orz-3/task/master/tieba.png"]
+         },
+      // {
+      //    "id": "wechat_finance_guess",
+      //    "name": "腾讯微证券",
+      //    "keys": ["wechat_finance_cookieKey"],
+      //    "author": "@baranwang",
+      //    "repo": "https://github.com/baranwang",
+      //    "icons": [ "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png","https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png"]
+      // }
+         {
+            "id": '52pojie',
+            "name": '吾爱破解',
+            "keys": ['CookieWA'],
+            "author": '@NobyDa',
+            "repo": 'https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js',
+            "icons": ['https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png', 'https://raw.githubusercontent.com/Cypress-H/images/master/52pj.png'],
+            "script": 'https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js'
+         },
+         {
+            "id": "chavyleung.meituan",
+            "name": "美团",
+            "keys": ["chavy_tokenurl_meituan", "chavy_tokenheader_meituan", "chavy_signurl_meituan", "chavy_signheader_meituan", "chavy_signbody_meituan"],
+            "author": "@chavyleung",
+            "repo": "https://github.com/chavyleung/scripts/blob/master/meituan/meituan.js",
+            "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png", "https://raw.githubusercontent.com/Orz-3/task/master/meituan.png"]
+         },
+         {
+		        "id": "elemSign",
+			      "name": "饿了么",
+			      "keys": ["cookie_elem"],
+			      "author": "@syzzzf",
+			      "repo": "https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js",
+            "script": "https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js",
+			      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/elem.png", "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"]
+	       },
+         {
+            "id": "jd_price_detect",
+            "name": "京东价格提醒",
+            "keys": ["tlb_jd_timeout", "tlb_jd_debug"],
+            "settings":
+           [
+                { "id": "tlb_jd_detect_url", "name": "商品链接A", "val": "", "type": "text", "placeholder":"请在商品页获取分享链接", "desc": "请在商品页获取分享链接" },
+                { "id": "tlb_jd_detect_price", "name": "商品链接A 目标价格", "val": "", "type": "number", "placeholder":"若商品A低于该价格，则会提醒。", "desc": "" },
+            
+                { "id": "tlb_jd_detect_url2", "name": "商品链接B", "val": "", "type": "text", "placeholder":"请在商品页获取分享链接", "desc": "请在商品页获取分享链接" },
+                { "id": "tlb_jd_detect_price2", "name": "商品链接B 目标价格", "val": "", "type": "number", "placeholder":"若商品B低于该价格，则会提醒。", "desc": "" },
+            
+                { "id": "tlb_jd_detect_url3", "name": "商品链接C", "val": "", "type": "text", "placeholder":"请在商品页获取分享链接", "desc": "请在商品页获取分享链接" },
+                { "id": "tlb_jd_detect_price3", "name": "商品链接C 目标价格", "val": "", "type": "number", "placeholder":"若商品C低于该价格，则会提醒。", "desc": "" },
+            
+                { "id": "tlb_jd_timeout", "name": "[debug]请求超时限制 (毫秒)", "val": 3000, "type": "number", "desc": "" },
+                { "id": "tlb_jd_debug", "name": "[debug]打开debug", "val": false, "type": "boolean", "desc": "debug功能开关"}    
+          ],
+          "author": "@toulanboy",
+          "repo": "https://github.com/toulanboy/scripts/blob/master/jd_price_detect",
+          "script": "https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js",
+          "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
+         },
+         {
+              "id": "zZ.DiDi",
+              "name": "滴滴出行",
+              "keys": ["DiDi", "DiDi_city"],
+              "settings": 
+              [
+                {
+                    "id": "DiDi",
+                    "name": "Token",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 7,
+                    "desc": "Token 可同时存在多个，可使用不同日期获取的 Token 进行测试。"
+                },
+                {
+                    "id": "DiDi_city",
+                    "name": "城市编号",
+                    "val": "",
+                    "type": "number",
+                    "desc": "滴滴出行城市编号，可更改至别的城市进行测试。"
+                }
+             ],
+             "author": "@zZPiglet",
+             "repo": "https://github.com/zZPiglet/Task/blob/master/DiDi/README.md",
+             "icons":["https://raw.githubusercontent.com/Orz-3/mini/master/didi.png","https://raw.githubusercontent.com/Orz-3/task/master/didi.png"]
+        },
+        {
+             "id": "zZ.115",
+             "name": "115网盘",
+             "keys": ["wp115", "uid115"],
+             "settings": 
+             [
+               {
+                  "id": "wp115",
+                  "name": "Cookie",
+                  "val": "",
+                  "type": "textarea",
+                  "autoGrow": true, 
+                  "rows": 7,
+                  "desc": "Cookie，其中有效数据为 CID、SEID、UID。"
+               },
+               {
+                  "id": "uid115",
+                  "name": "115 号",
+                  "val": "",
+                  "type": "text",
+                  "desc": "115 -> 相伴 -> 账号名下方即可查看。"
+               }
+            ],
+            "author": "@wangfei021325, @zZPiglet",
+            "repo": "https://github.com/zZPiglet/Task/blob/master/115/115.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/115.png","https://raw.githubusercontent.com/Orz-3/task/master/115.png"]
+       },
+       {
+            "id": "weibo",
+            "name": "微博钱包",
+            "keys": ["sy.signurl.wb", "sy_signheader_wb", "sy_payheader_wb", "sy_token_wb"],
+            "author": "@sunert",
+            "repo": "https://github.com/Sunert/Scripts/blob/master/Task/weibo.js",
+            "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png", "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"]
+       },
+       {
+            "id": "youth",
+            "name": "中青看点",
+            "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq"],
+            "author": "@sunert",
+            "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js",
+            "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"]
+       },
+       {
+			      "id": "testflight",
+			      "name": "tf监控",
+			      "keys": [],
+			      "settings": 
+            [
+              {
+				         "id": "appkey",
+				         "name": "监控appkey",
+				         "val": "",
+				         "type": "textarea",
+				         "placeholder": "VCIvwk2g,1SyedSId",
+				         "autoGrow": true,
+				         "rows": 1,
+				         "desc": "以英文逗号分隔多个key"
+		        	}, 
+              {
+				         "id": "testflight_isnotify",
+				         "name": "是否静默通知",
+				         "val": "",
+				         "type": "textarea",
+				         "placeholder": "true or false",
+				         "autoGrow": true,
+				         "rows": 1,
+				         "desc": "false没有tf位置将不会通知只记录日志"
+			        }
+           ],
+			     "author": "@syzzzf",
+			     "repo": "https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js",
+			     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png", "https://raw.githubusercontent.com/Orz-3/task/master/testflight.png"]
+		}
+   ]
+}
