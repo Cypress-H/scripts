@@ -6,6 +6,7 @@
     如有问题或您有更好的改进方案,请前往 https://github.com/sazs34/TaskConfig/issues 提交内容,或直接进行pull request
     原作者： @Neurogram-R
     Author： @Cypress-H
+    更新时间：2020.7.26 11:25
 */
 // #region 固定头部
 let isQuantumultX = $task != undefined; //判断当前运行环境是否是qx
@@ -147,9 +148,9 @@ app可单独设置区域，未单独设置区域，则采用reg默认区域
 */
 console.log("APP监控运行");
 //let apps=["1443988620|hk","1312014438 cn","499470113/vn","1314212521-jp","1282297037_au","932747118:ie","1116905928","1373567447"];//app跟踪id
-const apps=getdata('apps');
+let apps=getdata('apps');
 //let reg="us";//默认区域：美国us 中国cn 香港hk
-const reg=getdata('reg');
+let reg=getdata('reg');
 let notifys=[];
 format_apps(apps);
 function format_apps(x) {
