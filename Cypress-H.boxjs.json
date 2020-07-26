@@ -199,7 +199,7 @@
                     "desc": "若无指定，默认美区"
                  }
 	     ],
-	    "author": "@Neurogram-R, @Cypress-H",
+	    "author": "@Neurogram-R， @Cypress-H",
             "repo": "https://github.com/Cypress-H/scripts",
             "script": "https://raw.githubusercontent.com/Cypress-H/scripts/master/AppMonitor.js",
             "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/appstore.png", "https://raw.githubusercontent.com/Orz-3/task/master/appstore.png"]
