@@ -188,7 +188,7 @@
 		    "type": "textarea",
 		    
 		    "autoGrow": true,
-		    "rows": 1,
+		    "rows": 1
 		    
 		 },
 		 {
