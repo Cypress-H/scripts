@@ -1,7 +1,7 @@
 /*
     原作者： @Neurogram-R
     Author： @Cypress-H
-    更新时间：2020.7.26 14:26
+    更新时间：2020.7.26 14:32
 */
 
 // #region 固定头部
@@ -149,6 +149,7 @@ let reg="us";//默认区域：美国us 中国cn 香港hk
 
 //引入box
 const $ = API("AppMonitor");
+$.write("","x.forEach");
 if($.read("apps")!=undefined)
 {
    apps=JSON.parse($.read("apps"));
