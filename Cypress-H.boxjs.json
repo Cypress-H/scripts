@@ -29,7 +29,7 @@
             "author": "@NobyDa",
             "repo": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js",
             "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png","https://raw.githubusercontent.com/Cypress-H/images/master/52pj2.png"],
-            "script": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js"
+            "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js"
          },
          {
             "id": "chavyleung.meituan",
@@ -143,6 +143,31 @@
             "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js",
             "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js",
             "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"]
+       },
+       {
+            "id": "txnews",
+            "name": "腾讯新闻",
+            "keys": ["sy_signurl_txnews", "sy_cookie_txnews","video_txnews"],
+            "author": "@sunert",
+            "settings":
+	    [
+               {
+                   "id": "notifynum",
+                   "name": "通知频率",
+                   "val": 4,
+                   "type": "number",
+                   "desc": "视频红包间隔通知开为1，常关为0(默认4次)"
+               },
+               {
+                   "id": "logsturn",
+                   "name": "调试日志",
+                   "val": false,
+                   "type": "boolean"
+               }
+            ],
+            "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png", "https://raw.githubusercontent.com/Orz-3/task/master/txnews.png"],
+            "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js"
        },
        {
 	    "id": "testflight",
