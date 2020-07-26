@@ -4,6 +4,8 @@
     无需担心影响执行问题,具体原理是将QX和Surge的方法转换为互相可调用的方法
     尚未测试是否支持import的方式进行使用,因此暂未export
     如有问题或您有更好的改进方案,请前往 https://github.com/sazs34/TaskConfig/issues 提交内容,或直接进行pull request
+    原作者： @Neurogram-R
+    Author： @Cypress_H
 */
 // #region 固定头部
 let isQuantumultX = $task != undefined; //判断当前运行环境是否是qx
@@ -144,8 +146,10 @@ app可单独设置区域，未单独设置区域，则采用reg默认区域
 以上方式均可 分隔符支持 空格/:|_-
 */
 console.log("APP监控运行");
-let apps=["1443988620|hk","1312014438 cn","499470113/vn","1314212521-jp","1282297037_au","932747118:ie","1116905928","1373567447"];//app跟踪id
-let reg="us";//默认区域：美国us 中国cn 香港hk
+//let apps=["1443988620|hk","1312014438 cn","499470113/vn","1314212521-jp","1282297037_au","932747118:ie","1116905928","1373567447"];//app跟踪id
+const apps=getdata('apps');
+//let reg="us";//默认区域：美国us 中国cn 香港hk
+const reg=getdata('reg');
 let notifys=[];
 format_apps(apps);
 function format_apps(x) {
