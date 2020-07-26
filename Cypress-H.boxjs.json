@@ -174,35 +174,6 @@
 	   "author": "@syzzzf",
 	   "repo": "https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js",
 	   "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png", "https://raw.githubusercontent.com/Orz-3/task/master/testflight.png"]
-     },
-     {
-            "id": "AppMonitor",
-            "name": "App价格版本监控",
-            "keys": [],
-	    "settings":
-	     [
-	        {
-	            "id": "apps",
-		    "name": "监控app的id编号",
-		    "val": "",
-		    "type": "textarea",
-		    
-		    "autoGrow": true,
-		    "rows": 1
-		    
-		 },
-		 {
-                    "id": "reg",
-                    "name": "地区",
-                    "val": "us",
-                    "type": "text",
-                    "desc": "若无指定，默认美区"
-                 }
-	     ],
-	    "author": "@Neurogram-R， @Cypress-H",
-            "repo": "https://github.com/Cypress-H/scripts",
-            "script": "https://raw.githubusercontent.com/Cypress-H/scripts/master/AppMonitor.js",
-            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/appstore.png", "https://raw.githubusercontent.com/Orz-3/task/master/appstore.png"]
-     }     
+     }
    ]
 }
