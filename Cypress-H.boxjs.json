@@ -182,7 +182,7 @@
 	    "settings":
 	     [
 	        {
-	            "id": "apps",
+	            "id": "@AppMonitor.apps",
 		    "name": "监控app的id编号",
 		    "val": "",
 		    "type": "textarea",
@@ -192,7 +192,7 @@
 		    "desc": "格式如\"1443988620:hk\",\"1443988620/us\",\"1443988620-uk\",\"1443988620_jp\",\"1443988620 au\"，用英文逗号隔开"
 		 },
 		 {
-                    "id": "reg",
+                    "id": "@AppMonitor.reg",
                     "name": "地区",
                     "val": "us",
                     "type": "text",
