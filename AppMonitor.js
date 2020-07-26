@@ -5,7 +5,7 @@
     尚未测试是否支持import的方式进行使用,因此暂未export
     如有问题或您有更好的改进方案,请前往 https://github.com/sazs34/TaskConfig/issues 提交内容,或直接进行pull request
     原作者： @Neurogram-R
-    Author： @Cypress_H
+    Author： @Cypress-H
 */
 // #region 固定头部
 let isQuantumultX = $task != undefined; //判断当前运行环境是否是qx
