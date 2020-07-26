@@ -148,9 +148,9 @@ app可单独设置区域，未单独设置区域，则采用reg默认区域
 */
 console.log("APP监控运行");
 //let apps=["1443988620|hk","1312014438 cn","499470113/vn","1314212521-jp","1282297037_au","932747118:ie","1116905928","1373567447"];//app跟踪id
-let apps=getdata('apps');
+const apps=getdata('apps');
 //let reg="us";//默认区域：美国us 中国cn 香港hk
-let reg=getdata('reg');
+const reg=getdata('reg');
 let notifys=[];
 format_apps(apps);
 function format_apps(x) {
