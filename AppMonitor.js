@@ -1,7 +1,7 @@
 /*
     原作者： @Neurogram-R
     Author： @Cypress-H
-    更新时间：2020.7.26 14:12
+    更新时间：2020.7.26 14:26
 */
 
 // #region 固定头部
@@ -161,7 +161,7 @@ let notifys=[];
 format_apps(apps);
 function format_apps(x) {
     let apps_f={};
-    x.forEach(n)=>{
+    x.forEach((n)=>{
         if(/^[a-zA-Z0-9:/|\-_\s]{1,}$/.test(n))
         {
             n=n.replace(/[/|\-_\s]/g,":");
