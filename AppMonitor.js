@@ -161,7 +161,7 @@ let notifys=[];
 format_apps(apps);
 function format_apps(x) {
     let apps_f={};
-    x.forEach((n)=>{
+    const x.forEach((n)=>{
         if(/^[a-zA-Z0-9:/|\-_\s]{1,}$/.test(n))
         {
             n=n.replace(/[/|\-_\s]/g,":");
