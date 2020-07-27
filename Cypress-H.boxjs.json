@@ -168,35 +168,6 @@
             "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews.js",
             "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png", "https://raw.githubusercontent.com/Orz-3/task/master/txnews.png"],
             "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js"
-       },
-       {
-	    "id": "testflight",
-	    "name": "tf监控",
-	    "keys": [],
-	    "settings": 
-            [
-              {
-		 "id": "appkey",
-		 "name": "监控appkey",
-		 "val": "",
-	         "type": "textarea",
-		 "placeholder": "VCIvwk2g,1SyedSId",
-		 "autoGrow": true,
-		 "rows": 1,
-	         "desc": "以英文逗号分隔多个key"
-	      }, 
-              {
-		 "id": "testflight_isnotify", 
-		 "name": "是否静默通知",
-		 "val": false,
-		 "type": "boolean",
-		 "desc": "没有tf位置将不通知(记录日志)"
-               }
-           ],
-	   "author": "@syzzzf",
-	   "repo": "https://github.com/songyangzz/QxScripts",
-	   "script": "https://raw.githubusercontent.com/Cypress-H/scripts/master/testflight.js",
-	   "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png", "https://raw.githubusercontent.com/Orz-3/task/master/testflight.png"]
-     }    	     
+       }	     
    ]
 }
