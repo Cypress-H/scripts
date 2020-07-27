@@ -195,7 +195,7 @@
            ],
 	   "author": "@syzzzf",
 	   "repo": "https://github.com/songyangzz/QxScripts",
-	   "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js",
+	   "script": "https://raw.githubusercontent.com/Cypress-H/scripts/master/testflight.js",
 	   "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png", "https://raw.githubusercontent.com/Orz-3/task/master/testflight.png"]
      }    	     
    ]
