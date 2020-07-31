@@ -2,7 +2,7 @@
   "id": "Delete_cookie.sub",
   "name": "Cypress.H自用清除cookie",
   "author": "@Cypress_H",
-  "icon": "https://raw.githubusercontent.com/Cypress-H/images/master/ll.png",
+  "icon": "https://raw.githubusercontent.com/Cypress-H/images/master/fdy.png",
   "repo": "https://github.com/Cypress-H/scripts",
   "apps":
      [
@@ -42,7 +42,7 @@
            ],
            "author": "@boss",
            "repo": "https://github.com/Cypress-H",
-           "icons": ["https://raw.githubusercontent.com/Cypress-H/images/master/ll.png","https://raw.githubusercontent.com/Cypress-H/images/master/ll.png"]
+           "icons": ["https://raw.githubusercontent.com/Cypress-H/images/master/fdy.png","https://raw.githubusercontent.com/Cypress-H/images/master/fdy.png"]
          }       	     
    ]
 }
