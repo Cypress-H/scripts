@@ -1,0 +1,43 @@
+{
+  "id": "Delete_cookie.sub",
+  "name": "Cypress.H自用清除cookie",
+  "author": "@Cypress_H",
+  "icon": "https://raw.githubusercontent.com/Cypress-H/images/master/fdy.png",
+  "repo": "https://github.com/Cypress-H/scripts",
+  "apps":
+     [
+         {
+            "keys":     
+           ["tls_signckname",
+            "sy_signurl_txnews",
+            "sy_cookie_txnews",
+            "video_txnews",
+            "sy_rd_txnews",
+            "sy_signurl_txnews1",
+            "sy_cookie_txnews1",
+            "sy_signurl_txnews2",
+            "sy_cookie_txnews2",
+            "sy_signurl_txnews3",
+            "sy_cookie_txnews3",
+            "video_txnews1",
+            "video_txnews2",
+            "video_txnews3",
+            "sy_rd_txnews1",
+            "sy_rd_txnews2",
+            "sy_rd_txnews3",
+            "chavy_cookie_rrtv",
+            "qktx_urlckname",
+            "qktx_urlrckname",
+            "qktx_ridname",
+            "qktx_frboxurlname",
+            "qktx_taskboxurlname",
+            "qktx_username",
+            "htt_dongfangname",
+            "htt_signurlckname",
+            "htt_signbdname",
+            "htt_videoname",
+            "htt_smvideoname"
+           ]
+         }       	     
+   ]
+}
