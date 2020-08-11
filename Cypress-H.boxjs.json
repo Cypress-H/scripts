@@ -140,9 +140,9 @@
             "name": "健康打卡",
             "keys": ["CookieJK"],
             "author": "@Cypress_H",
-            "repo": "https://github.com/Cypress-H/Scripts",
+            "repo": "https://github.com/Cypress-H/scripts",
             "icons": ["https://raw.githubusercontent.com/Cypress-H/images/master/njupt.png","https://raw.githubusercontent.com/Cypress-H/images/master/njupt.png"],
-            "script": "https://raw.githubusercontent.com/Cypress-H/Scripts/health_task.js"
+            "script": "https://raw.githubusercontent.com/Cypress-H/scripts/health_task.js"
         }   
    ]
 }
