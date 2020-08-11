@@ -1,7 +1,10 @@
 /*
+Cookie获取
 http:\/\/datav\.njupt\.edu\.cn/feiyan_api/examen/examenAnswerController/commitAnswer.do? url script-request-header health_task2.js
 
-mitm
+task
+0 8 * * * health_task.js
+[mitm]
 datav.njupt.edu.cn
 */
 var $cypress = cypress();
