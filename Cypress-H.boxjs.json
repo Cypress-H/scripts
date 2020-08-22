@@ -7,22 +7,6 @@
   "apps":
      [
          {
-            "id": "tieba",
-            "name": "百度贴吧",
-            "keys": ["CookieTB"],  
-            "settings": 
-            [
-                 { "id": "CFG_tieba_isOrderBars", "name": "按连签排序", "val": false, "type": "boolean", "desc": "默认按经验排序" },
-                 { "id": "CFG_tieba_maxShowBars", "name": "每页显示数", "val": 15, "type": "number", "desc": "每页最显示多少个吧信息" },
-                 { "id": "CFG_tieba_maxSignBars", "name": "每次并发", "val": 5, "type": "number", "desc": "每次并发签到多少个吧" },
-                 { "id": "CFG_tieba_signWaitTime", "name": "并发间隔 (毫秒)", "val": 2000, "type": "number", "desc": "每次并发间隔时间" }
-            ],
-            "author": "@chavyleung，@Nobyda",
-            "repo": "https://github.com/chavyleung/scripts/tree/master/tieba",
-            "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js",
-            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/tieba.png", "https://raw.githubusercontent.com/Orz-3/task/master/tieba.png"]
-         },
-         {
             "id": "52pojie",
             "name": "吾爱破解",
             "keys": ["CookieWA"],
@@ -100,41 +84,59 @@
              "icons":["https://raw.githubusercontent.com/Orz-3/mini/master/didi.png","https://raw.githubusercontent.com/Orz-3/task/master/didi.png"]
         },
         {
-             "id": "zZ.115",
-             "name": "115网盘",
-             "keys": ["wp115", "uid115"],
-             "settings": 
-             [
-               {
-                  "id": "wp115",
-                  "name": "Cookie",
-                  "val": "",
-                  "type": "textarea",
-                  "autoGrow": true, 
-                  "rows": 7,
-                  "desc": "Cookie，其中有效数据为 CID、SEID、UID。"
-               },
-               {
-                  "id": "uid115",
-                  "name": "115 号",
-                  "val": "",
-                  "type": "text",
-                  "desc": "115 -> 相伴 -> 账号名下方即可查看。"
-               }
-            ],
-            "author": "@wangfei021325, @zZPiglet",
-            "repo": "https://github.com/zZPiglet/Task/blob/master/115/115.js",
-            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/115.png","https://raw.githubusercontent.com/Orz-3/task/master/115.png"]
-       },
-       {
-            "id": "weibo",
-            "name": "微博钱包",
-            "keys": ["sy.signurl.wb", "sy_signheader_wb", "sy_payheader_wb", "sy_token_wb"],
-            "author": "@sunert",
-            "repo": "https://github.com/Sunert/Scripts/blob/master/Task/weibo.js",
-            "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js",
-            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png", "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"]
-       }
-       
+             "id": "trainquery",
+             "name": "列车时刻",
+             "keys": [],
+             "settings": [
+             {
+                    "id": "people",
+                    "name": "乘客类型",
+                    "val": "ADULT",
+                    "type": "radios",
+                    "desc": "成人/学生", 
+                    "items": [
+                    {
+                        "key": "ADULT",
+                        "label": "成人"
+                    },
+                    {
+                        "key": "0X00",
+                        "label": "学生"
+                     }]
+             },
+             { 
+                    "id": "left", 
+                    "name": "出发站点", 
+                    "val": "北京", 
+                    "type": "text", 
+                    "desc": "填入中文站点" 
+             },
+             { 
+                    "id": "end", 
+                    "name": "目的地", 
+                    "val": "上海", 
+                    "type": "text", 
+                    "desc": "填入中文站点" 
+             },
+             { 
+                   "id": "leavedate", 
+                   "name": "出发时间", 
+                   "val": "2020-08-15", 
+                   "type": "date", 
+                   "desc": "填入出发日期，请按照格式填写" 
+             },
+             { 
+                  "id": "setrain", 
+                  "name": "列车车次", 
+                  "val": "G5", 
+                  "type": "text", 
+                  "desc": "填入列车车次或者列车序号，列车序号请查看日志详情" 
+             }
+         ],
+              "author": "@sunert",
+              "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/trainquery.js",
+              "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/12306.png", "https://raw.githubusercontent.com/Orz-3/task/master/12306.png"],
+              "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/trainquery.js"
+        }
    ]
 }
