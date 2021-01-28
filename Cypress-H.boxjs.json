@@ -167,10 +167,10 @@
                         "name": "最大运动步数",
                         "val": "88888",
                         "type": "text",
-                        "desc": "需要修改最小的运动步数的数字,例如:88888"
+                        "desc": "需要修改最大的运动步数的数字,例如:88888"
                   }
                        ],
-                       "author": "@LXK9301",
+                       "author": "@lxk9301",
      		       "repo": "https://gitee.com/lxk0301/jd_scripts",
      		       "script": "https://raw.githubusercontent.com/Cypress-H/scripts/master/xmSports.js",
      		       "icons": [
