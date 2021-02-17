@@ -22,7 +22,7 @@
             "author": "@chavyleung",
             "repo": "https://github.com/chavyleung/scripts/blob/master/meituan/meituan.js",
             "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js",
-            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png", "https://raw.githubusercontent.com/Orz-3/task/master/meituan.png"]
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/meituan.png"]
          },
          {
             "id": "elemSign",
@@ -31,7 +31,7 @@
 	    "author": "@syzzzf",
 	    "repo": "https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js",
             "script": "https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js",
-	    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/elem.png", "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"]
+	    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/elem.png"]
 	 },
          {
             "id": "jd_price_detect",
@@ -54,7 +54,7 @@
           "author": "@toulanboy",
           "repo": "https://github.com/toulanboy/scripts/blob/master/jd_price_detect",
           "script": "https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js",
-          "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
+          "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png"]
          },
          {
               "id": "zZ.DiDi",
@@ -82,7 +82,7 @@
              "author": "@zZPiglet",
              "repo": "https://github.com/zZPiglet/Task/blob/master/DiDi/README.md",
              "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js",
-             "icons":["https://raw.githubusercontent.com/Orz-3/mini/master/didi.png","https://raw.githubusercontent.com/Orz-3/task/master/didi.png"]
+             "icons":["https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png","https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/didi.png"]
         },
         {
              "id": "trainquery",
@@ -136,7 +136,7 @@
          ],
               "author": "@sunert",
               "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/trainquery.js",
-              "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/12306.png", "https://raw.githubusercontent.com/Orz-3/task/master/12306.png"],
+              "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/12306.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/12306.png"],
               "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/trainquery.js"
         },
 	{
@@ -174,8 +174,8 @@
      		       "repo": "https://gitee.com/lxk0301/jd_scripts",
      		       "script": "https://raw.githubusercontent.com/Cypress-H/scripts/master/xmSports.js",
      		       "icons": [
-       				   "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
-        			   "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
+       				   "https://raw.githubusercontent.com/Orz-3/mini/master/Color/xmyd_mini.png",
+        			   "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/xmyd.png"
                                  ]
         }
    ]
